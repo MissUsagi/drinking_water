@@ -1,0 +1,61 @@
+h1 {
+  font-size: 2.1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  width: 200px;
+  padding: 0px 5px;
+}
+
+p {
+  font-size: 12px;
+  font-kerning: none;
+  padding: 0px 10px;
+  margin: 5px;
+  text-align: justify;
+}
+body {
+  margin: 5px 20px 0 20px;
+  height: 98vh;
+}
+footer {
+  font-size: 0.6rem;
+  right: 10px;
+  bottom: 80px;
+  transform: rotate(270deg);
+  transform-origin: top right;
+  padding: 3px;
+}
+.your-goal {
+  margin-top: 5;
+}
+
+.quantity-update {
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.cup {
+  height: 360px;
+  border: 4px solid var(--border-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+
+.cups-container {
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.cup.cup-small {
+  border: 2px solid var(--border-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  width: 40px;
+  margin: 2px 3px;
+  padding: 0 3px;
+  font-size: 9px;
+  font-weight: 300;
+}
