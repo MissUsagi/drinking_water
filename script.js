@@ -24,16 +24,6 @@ function addClickEvent(element) {
 
 smallCup.forEach(addClickEvent);
 
-// smallCup.forEach((cup) => {
-//    cup.addEventListener("click", function () {
-//       if ((cup.classList.contains("full")) == false) {
-//          cup.classList.add("full");
-//       }
-//       else cup.classList.remove("full");
-//       countEmptyCups();
-//    })
-// });
-
 function countEmptyCups() {
    let fullCups = document.querySelectorAll(".full").length;
    let amountOfCups = document.querySelectorAll(".cup-small");
